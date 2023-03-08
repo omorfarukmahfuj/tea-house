@@ -38,11 +38,11 @@
 
 </head>
 
-<body>
+<body class="container mx-auto px-8 md:px-4">
     <!-- Header Start -->
-    <header class="container mx-auto px-8 md:px-4">
-        <div class="h-screen items-center justify-between
-                    md:h-1/2 md:flex md:pt-20  
+    <header class="pt-8 lg:pt-0">
+        <div class="h-auto items-center justify-between
+                    md:h-1/2 md:flex
                     lg:h-screen">
             <!-- Hero Banner Title -->
             <div class="space-y-4 md:space-y-7 md:w-1/2">
@@ -73,7 +73,52 @@
 
     <!-- Main Start -->
     <main>
+        <!-- Featured Product Section -->
+        <section class="my-24 md:my-32">
+            <h2 class="text-center font-extrabold text-5xl mb-5 text-dark_01">Our Featured Products</h2>
+            <p class="text-center font-medium text-base mb-12 text-dark_03 lg:px-40">Here are some of our best tea you
+                can try. Whether you're a tea connoisseur or a casual tea drinker, we have a variety of flavors and
+                blends to suit your taste buds.</p>
 
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+                <!-- Tea 01 -->
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-transparent p-7 rounded-xl">
+                    <img class="mx-auto mb-7" src="images/tea-1.png" alt="">
+                    <h3 class="text-center font-extrabold text-2xl text-dark_01 mb-2">Milk Tea</h3>
+                    <p class="text-center font-semibold text-base text-dark_03">Creamer could be replaced by fresh milk
+                    </p>
+                </div>
+
+                <!-- Tea 02 -->
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-transparent p-7 rounded-xl">
+                    <img class="mx-auto mb-7" src="images/tea-2.png" alt="">
+                    <h3 class="text-center font-extrabold text-2xl text-dark_01 mb-2">Black Tea</h3>
+                    <p class="text-center font-semibold text-base text-dark_03">Creamer could be replaced by fresh milk
+                    </p>
+                </div>
+
+                <!-- Tea 03 -->
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-transparent p-7 rounded-xl">
+                    <img class="mx-auto mb-7" src="images/tea-3.png" alt="">
+                    <h3 class="text-center font-extrabold text-2xl text-dark_01 mb-2">Lemon Tea</h3>
+                    <p class="text-center font-semibold text-base text-dark_03">Creamer could be replaced by fresh milk
+                    </p>
+                </div>
+
+                <!-- Tea 04 -->
+                <div class="bg-gradient-to-b from-[#F4F4F4] to-transparent p-7 rounded-xl md:hidden lg:block">
+                    <img class="mx-auto mb-7" src="images/tea-4.png" alt="">
+                    <h3 class="text-center font-extrabold text-2xl text-dark_01 mb-2">Green Tea</h3>
+                    <p class="text-center font-semibold text-base text-dark_03">Creamer could be replaced by fresh milk
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </section>
     </main>
 
     <!-- Footer Start -->

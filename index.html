@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark_01: '#1C1C1C',
+                        dark_03: '#777777',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Style -->
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="container mx-auto px-8 md:px-4">
+        <div class="h-screen items-center justify-between
+                    md:h-1/2 md:flex md:pt-20  
+                    lg:h-screen">
+            <!-- Hero Banner Title -->
+            <div class="space-y-4 md:space-y-7 md:w-1/2">
+                <h1 class="font-extrabold text-5xl md:text-7xl leading-tight text-dark_01">It's good<br>tea time at
+                    The<br>Tea House</h1>
+                <p class="font-medium text-lg text-dark_03">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your Taste Buds</p>
+                <button
+                    class="font-bold text-xl text-white bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 rounded-xl">Explore
+                    More <img class="inline ml-2" src="images/arrow.png" alt="">
+                </button>
+            </div>
+            <!-- Hero Banner Image -->
+            <div class="md:w-1/2 relative px-5">
+                <img src="images/banner.png" alt="">
+                <div
+                    class="flex items-center gap-3 shadow-lg px-6 py-4 rounded-xl bg-white absolute bottom-0 right-4 md:right-1/4 lg:right-1/2 mt-11 md:mt-0">
+                    <img src="images/star.png" alt="">
+                    <div>
+                        <p class="font-extrabold text-3xl text-dark_01">5.00</p>
+                        <p class="font-semibold text-lg text-dark_03">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main Start -->
+    <main>
+
+    </main>
+
+    <!-- Footer Start -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
